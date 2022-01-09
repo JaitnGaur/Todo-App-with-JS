@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo Lis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="title">Todo App</div>
+
+        <div id="input-container">
+            <div>
+                <input type="text" placeholder="ENTER TASK" id="textenter"> <span id="error"></span>
+            </div>
+
+            <div><button onclick="addtask()"><img src="plus.png" height="30px" width="
+                30px"></button></div>
+        </div>
+
+        <div>
+            <ul id="tasks">
+
+            </ul>
+        </div>
+
+
+        <div id="bottom-div">
+            <div id="counter">You Have 0 Pending Tasks</div>
+            <div>&nbsp;&nbsp;<button onclick="clearall()"> CLEAR ALL</button></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
